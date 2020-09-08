@@ -1,0 +1,48 @@
+//
+//  SHMModuleCell.h
+//  SHMList
+//
+//  Created by Mac on 2020/7/22.
+//
+
+#import <UIKit/UIKit.h>
+#import <React/RCTBridge.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface SHMModuleCell : UICollectionViewCell
+
+- (void)configWithBridge:(RCTBridge *)bridge module:(NSString *)module props:(NSDictionary *)props;
+
+@end
+
+#define SHM_CREATE_MODULE_CELL(name) \
+@interface name : SHMModuleCell \
+@end
+
+#define SHM_CREATE_MODULE_CELL_IMP(name) \
+@implementation name \
+@end
+
+SHM_CREATE_MODULE_CELL(SHMModuleCell0)
+SHM_CREATE_MODULE_CELL(SHMModuleCell1)
+SHM_CREATE_MODULE_CELL(SHMModuleCell2)
+SHM_CREATE_MODULE_CELL(SHMModuleCell3)
+SHM_CREATE_MODULE_CELL(SHMModuleCell4)
+SHM_CREATE_MODULE_CELL(SHMModuleCell5)
+SHM_CREATE_MODULE_CELL(SHMModuleCell6)
+SHM_CREATE_MODULE_CELL(SHMModuleCell7)
+SHM_CREATE_MODULE_CELL(SHMModuleCell8)
+SHM_CREATE_MODULE_CELL(SHMModuleCell9)
+SHM_CREATE_MODULE_CELL(SHMModuleCell10)
+SHM_CREATE_MODULE_CELL(SHMModuleCell11)
+SHM_CREATE_MODULE_CELL(SHMModuleCell12)
+SHM_CREATE_MODULE_CELL(SHMModuleCell13)
+SHM_CREATE_MODULE_CELL(SHMModuleCell14)
+SHM_CREATE_MODULE_CELL(SHMModuleCell15)
+SHM_CREATE_MODULE_CELL(SHMModuleCell16)
+SHM_CREATE_MODULE_CELL(SHMModuleCell17)
+SHM_CREATE_MODULE_CELL(SHMModuleCell18)
+SHM_CREATE_MODULE_CELL(SHMModuleCell19)
+
+NS_ASSUME_NONNULL_END
