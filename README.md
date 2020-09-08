@@ -6,10 +6,7 @@
   <a href="https://www.npmjs.com/package/react-native-tableview">
     <img alt="npm version" src="https://img.shields.io/npm/v/react-native-tableview.svg?style=flat-square">
   </a>
-  <a href="https://www.npmjs.com/package/react-native-tableview">
-    <img alt="npm downloads" src="https://img.shields.io/npm/dm/react-native-tableview.svg?style=flat-square">
-  </a>
-   <a href="#badge">
+  <a href="#badge">
     <img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square">
   </a>
 </p>
